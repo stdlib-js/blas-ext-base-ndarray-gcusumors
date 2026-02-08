@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import gcusumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray-gcusumors@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-ndarray-gcusumors/tags). For example,
+
+```javascript
 import gcusumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray-gcusumors@v0.1.1-deno/mod.js';
 ```
 
@@ -109,7 +114,7 @@ import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ctor@den
 import zerosLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-zeros-like@deno/mod.js';
 import scalar2ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-from-scalar@deno/mod.js';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@deno/mod.js';
-import gcusumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray-gcusumors@v0.1.1-deno/mod.js';
+import gcusumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray-gcusumors@deno/mod.js';
 
 var xbuf = discreteUniform( 10, -50, 50, {
     'dtype': 'generic'
